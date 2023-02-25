@@ -252,7 +252,8 @@ Navigation
 Hero
 ========================================================================== */
 .hero {
-  min-height: 750px;
+  min-height: 700px;
+  // min-height: 750px;
   background: linear-gradient(rgba(5, 42, 252, 0.45),rgba(243, 34, 34, 0.45)),url('../img/hero-min1.jpeg') center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -282,8 +283,8 @@ Hero
     padding-top: 45%;
   }
   .hero-content img {
-    width: 55%;
-    margin-bottom: 12%;
+    width: 35%;
+    margin-bottom: 24%;
   }
 }
 .navigation {
@@ -319,7 +320,7 @@ header {
     display: inline-block;
   }
   .logo img {
-    height: 17px;
+    height: 35px;
   }
   ul.primary-nav {
     margin: 0 0 0 75px;

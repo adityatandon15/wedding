@@ -3,6 +3,7 @@ $(document).on('click', function(){
     console.log('Shaadi me zaroor aana');
 });
 
+
 $(document).ready(function () {
 
     /***************** Waypoints ******************/
@@ -248,7 +249,7 @@ $(document).ready(function () {
 function initMap() {
     var location = {lat: 28.714391862334455, lng: 77.20394024246416};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
-        zoom: 15,
+        zoom: 8,
         center: location,
         scrollwheel: false
     });
