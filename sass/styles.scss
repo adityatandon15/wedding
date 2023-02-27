@@ -415,6 +415,26 @@ Intro
 /* ==========================================================================
 Features-stack
 ========================================================================== */
+.petal {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-image: url('../img/petal.png'); /* Replace with your own petal image */
+  background-size: contain;
+  animation: falling 7s linear infinite;
+}
+
+@keyframes falling {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0.56;
+  }
+  100% {
+    transform: translateY(130vh);
+    opacity: 0.41;
+  }
+}
+
 .music {
 	display: none;
 }.timer {

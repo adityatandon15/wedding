@@ -67,7 +67,7 @@
             </div>
         </div>
         <div id="playsong">
-            <img src="img/playsong.png" alt="play song">
+            <img src="img/playsong.png" id="playOrPauseImage" alt="play/pause song" onclick="playOrPauseSong(); changeImage();">
         </div>
         <div class="row">
             <div class="col-sm-4 hidden-xs"></div>
@@ -170,6 +170,14 @@
     </script>
     
     <div class="container">
+        <section class="petals">
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+        </section>
+
         <div class="row">
             <div class="col-md-12">
                 <h3 class="header">Events</h3>
@@ -459,6 +467,7 @@
 <script src="js/jquery.flexslider-min.js"></script>
 <script src="js/jquery.mb.YTPlayer.min.js"></script>
 <script src="node_modules/waypoints/lib/jquery.waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
 <script src="js/vendor/ouical.js"></script>
 <script src="js/scripts.min.js"></script>
 <script async defer

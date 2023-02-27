@@ -1,7 +1,32 @@
-$(document).on('click', function(){
-    document.getElementById("my_audio").play();
-    console.log('Shaadi me zaroor aana');
-});
+function playOrPauseSong() {
+    var audio = document.getElementById("my_audio");
+    var image = document.getElementById('playOrPauseImage');
+    if(image.src.match("img/playsong.png"))
+        audio.play();
+    else 
+        audio.pause();
+}
+
+function changeImage() {
+    var image = document.getElementById('playOrPauseImage');
+    if (image.src.match("img/playsong.png")) {
+        image.src = "img/pausesong.png";
+    } else {
+        image.src = "img/playsong.png";
+    }
+}
+
+const petalsSection = document.querySelector('.petals');
+const numPetals = 15;
+
+for (let i = 0; i < numPetals; i++) {
+  const petal = document.createElement('div');
+  petal.classList.add('petal');
+  petal.style.left = `${Math.random() * 100}%`;
+  petal.style.animationDelay = `${Math.random() * 7}s`;
+  petalsSection.appendChild(petal);
+}
+
 
 
 $(document).ready(function () {
