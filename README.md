@@ -1,1 +1,2 @@
-Modified work originally done by @rampatra. All credit goes to him
+Modified work originally done by @rampatra. 
+Extended his wedding-website with new features to form my engagement-website.
