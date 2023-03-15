@@ -228,7 +228,7 @@ $(document).ready(function () {
             end: new Date('Apr 09, 2023 16:00'),
 
             // Event Address
-            address: 'Sunshine Marriage & Party Hall, Nirankari Colony, Delhi',
+            address: 'ROYAL PEPPER TULIP, 3rd Floor, Wazirpur, Delhi- 52',
 
             // Event Description
             description: "We can't wait to see you. For any queries or issues, please contact Mr. Abhay Tandon at +91 9667917278 or Mr. Mayank Tanwar at +91 7838266615."
