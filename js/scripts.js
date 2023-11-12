@@ -215,20 +215,20 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Harshita and Aditya's Engagement",
+            title: "Harshita and Aditya's Wedding",
 
             // Event start date
-            start: new Date('Apr 09, 2023 11:00'),
+            start: new Date('Nov 29, 2023 11:00'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Apr 09, 2023 16:00'),
+            end: new Date('Nov 29, 2023 20:00'),
 
             // Event Address
-            address: 'ROYAL PEPPER TULIP, 3rd Floor, Wazirpur, Delhi- 52',
+            address: 'MARINA DREAMS Banquet, Ground Floor, Wazirpur, Delhi- 52',
 
             // Event Description
             description: "We can't wait to see you. For any queries or issues, please contact Mr. Abhay Tandon at +91 9667917278 or Mr. Mayank Tanwar at +91 7838266615."
@@ -272,7 +272,7 @@ $(document).ready(function () {
 
 // Google map
 function initMap() {
-    var location = {lat: 28.704785, lng: 77.172228};
+    var location = {lat: 28.7039, lng: 77.1712};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 17,
         center: location,
