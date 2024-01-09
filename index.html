@@ -126,7 +126,7 @@
 
     <div class="row">
         <div class="text-center">
-            <h3 class="header">Time remaining</h3>
+            <h3 class="header">Happily Married Since</h3>
         </div>
     </div>
     <div class="timer" style="margin-bottom: 50px;">
@@ -147,7 +147,7 @@
           var now = new Date().getTime();
           
           // Find the distance between now and the count down date
-          var distance = countDownDate - now;
+          var distance = now - countDownDate;
           
           // Time calculations for days, hours, minutes and seconds
           var days = Math.floor(distance / (1000 * 60 * 60 * 24));
